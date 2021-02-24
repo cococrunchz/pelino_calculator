@@ -2,11 +2,13 @@ package com.example.pelino_calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         btnAns = findViewById(R.id.btnAns);
         btnPeriod = findViewById(R.id.btnPeriod);
         btnChange = findViewById(R.id.btnChange);
+        btnTxtdis = findViewById(R.id.btnTxtdis);
 
         btn0.setOnClickListener();
     }

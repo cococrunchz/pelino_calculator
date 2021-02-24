@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#393b45"
+    android:background="#Ffd872"
     tools:context=".MainActivity">
 
 
@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="76dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="0"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="2
 "
         app:layout_constraintBottom_toTopOf="@+id/btn0"
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="1"
         app:layout_constraintEnd_toStartOf="@+id/btn2"
         app:layout_constraintTop_toTopOf="@+id/btn2" />
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="6"
         app:layout_constraintStart_toEndOf="@+id/btn5"
         app:layout_constraintTop_toTopOf="@+id/btn5" />
@@ -60,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="+/-"
         app:layout_constraintEnd_toStartOf="@+id/btn0"
         app:layout_constraintTop_toTopOf="@+id/btn0"
@@ -71,8 +71,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="7"
+
         app:layout_constraintEnd_toStartOf="@+id/btn8"
         app:layout_constraintTop_toTopOf="@+id/btn8" />
 
@@ -81,8 +82,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="8"
+
         app:layout_constraintBottom_toTopOf="@+id/btn5"
         app:layout_constraintEnd_toEndOf="@+id/btn5"
         app:layout_constraintHorizontal_bias="1.0"
@@ -93,8 +95,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="9"
+
         app:layout_constraintStart_toEndOf="@+id/btn8"
         app:layout_constraintTop_toTopOf="@+id/btn8" />
 
@@ -103,8 +106,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="+"
+
         app:layout_constraintEnd_toStartOf="@+id/btnSub"
         app:layout_constraintTop_toTopOf="@+id/btnSub" />
 
@@ -113,8 +117,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="*"
+
         app:layout_constraintEnd_toStartOf="@+id/btnCe"
         app:layout_constraintTop_toTopOf="@+id/btnCe" />
 
@@ -123,8 +128,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="CLEAR"
+
         app:layout_constraintBottom_toTopOf="@+id/btnSub"
         app:layout_constraintEnd_toEndOf="@+id/btnSub"
         app:layout_constraintHorizontal_bias="0.0"
@@ -135,7 +141,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="="
         app:layout_constraintStart_toEndOf="@+id/btnCe"
         app:layout_constraintTop_toTopOf="@+id/btnCe" />
@@ -145,8 +151,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="/"
+
         app:layout_constraintStart_toEndOf="@+id/btnSub"
         app:layout_constraintTop_toTopOf="@+id/btnSub" />
 
@@ -155,8 +162,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="-"
+
         app:layout_constraintBottom_toTopOf="@+id/btn8"
         app:layout_constraintEnd_toEndOf="@+id/btn8"
         app:layout_constraintHorizontal_bias="0.0"
@@ -167,7 +175,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="3"
         app:layout_constraintStart_toEndOf="@+id/btn2"
         app:layout_constraintTop_toTopOf="@+id/btn2" />
@@ -177,7 +185,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="."
         app:layout_constraintStart_toEndOf="@+id/btn0"
         app:layout_constraintTop_toTopOf="@+id/btn0"
@@ -188,7 +196,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="4"
         app:layout_constraintEnd_toStartOf="@+id/btn5"
         app:layout_constraintTop_toTopOf="@+id/btn5" />
@@ -198,7 +206,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#555765"
+        android:backgroundTint="#6c88c4"
         android:text="5"
         app:layout_constraintBottom_toTopOf="@+id/btn2"
         app:layout_constraintEnd_toEndOf="@+id/btn2"
@@ -211,7 +219,7 @@
         android:layout_height="101dp"
         android:layout_marginBottom="16dp"
         android:background="#555765"
-        android:backgroundTint="#2D2F31"
+        android:backgroundTint="#74737a"
         android:text="0123456789"
         android:textColor="@color/white"
         android:textSize="30sp"
